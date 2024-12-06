@@ -1,0 +1,54 @@
+/* General Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+}
+
+/* Logo Styling */
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #212529;
+  margin: 0;
+}
+
+/* Basket Item Images */
+.basket-item img {
+  width: 80px; /* Fixed width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Basket Item Prices */
+.price-text {
+  color: rgb(66, 107, 31); /* Updated green color */
+}
+
+/* Order Summary Heading */
+.order-summary h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Payment Button Styling */
+.payment-button {
+  background-color: rgb(66, 107, 31); /* Green Button */
+  border-color: rgb(66, 107, 31);
+  color: white;
+  font-weight: bold;
+}
+
+.payment-button:hover {
+  background-color: rgba(66, 107, 31, 0.9); /* Slightly darker green on hover */
+  border-color: rgba(66, 107, 31, 0.9);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .basket-item img {
+    width: 60px; /* Smaller size for mobile devices */
+  }
+}
