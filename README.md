@@ -8,7 +8,7 @@ This is a responsive shopping basket webpage built with HTML, CSS, and Bootstrap
 - Bootstrap for grid and responsiveness.
 
 ## Live Demo
-[Provide the live demo link if deployed]
+(https://github.com/moinreza/shopping-basket)
 
 ## How to Use
 1. Clone the repository:
